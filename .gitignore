@@ -1,0 +1,10 @@
+__pycache__/
+.idea/
+*.py[oc]
+.pytest_cache/
+venv/
+.venv/
+**/__pycache__/
+**/.DS_Store
+**/.pytest_cache
+traces*

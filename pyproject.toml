@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "async-chat-client"
+version = "0.1.0"
+description = ""
+authors = ["Matvey Skirda <bookworm@mskirda.ru>"]
+readme = "README.md"
+packages = [{include = "async_chat_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
